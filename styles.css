@@ -1,0 +1,57 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #031321;    
+}
+
+h1{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h2{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.counter-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 70vh;
+}
+.counter-section >button{
+    border: white;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 668px;
+    top: 300px;
+    border-radius: 6px;
+
+}
+
+.yeetButton:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+.counter-section .yeetButton:active{
+    transform: scale(0.9);
+    font-size: 24px;
+}
